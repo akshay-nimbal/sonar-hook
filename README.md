@@ -10,7 +10,6 @@ Static code analysis is an essential part of every software project and no surpr
 
 Step 1: Download the latest [Sonarqube server](https://www.sonarqube.org/downloads/). 
 Download the [sonar-runner-2.4](http://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-dist/2.4/sonar-runner-dist-2.4.jar).
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 Step 2: Step 2: Download the hook script and sonar-hook.jar from my github repository 
 [akstay/sonar-hook](https://github.com/akstay/sonar-hook/tree/master/SonarSVNHook/). 
