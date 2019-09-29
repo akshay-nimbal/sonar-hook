@@ -1,0 +1,248 @@
+
+####### Directory is ={sonar.host.url=http://127.0.0.1:9000}###### User/ProjectKey is=akshay.n
+####### Directory is =D:\NEW_UI\main\campaign-management\campaignui\src\app\services
+####### Inclusions/Modified files =\asset-service.service.ts,\camp-services.enum.ts,D:\softwares\sonar-runner-2.4
+SonarQube Runner 2.4
+Java 1.8.0_121 Oracle Corporation (64-bit)
+Windows 10 10.0 amd64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: D:\softwares\sonar-runner-2.4\conf\sonar-runner.properties
+INFO: Project configuration file: NONE
+INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+INFO: Work directory: D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.\.sonar
+INFO: SonarQube Server 7.7.0.23042
+13:09:50.107 INFO  - Load global settings
+13:09:50.445 DEBUG - GET 200 http://127.0.0.1:9000/api/settings/values.protobuf | time=283ms
+13:09:50.540 INFO  - Load global settings (done) | time=441ms
+13:09:50.544 INFO  - Server id: BF41A1F2-AWnDIVtfxlWdgF8Qx5zC
+13:09:50.599 INFO  - User cache: C:\Users\akshay.n\.sonar\cache
+13:09:50.612 INFO  - Load/download plugins
+13:09:50.612 INFO  - Load plugins index
+13:09:50.663 DEBUG - GET 200 http://127.0.0.1:9000/api/plugins/installed | time=51ms
+13:09:50.801 INFO  - Load plugins index (done) | time=189ms
+13:09:50.941 INFO  - Load/download plugins (done) | time=329ms
+13:09:51.072 DEBUG - Plugins:
+13:09:51.072 DEBUG -   * SonarPython 1.13.0.2922 (python)
+13:09:51.072 DEBUG -   * SonarCSS 1.0.3.724 (cssfamily)
+13:09:51.072 DEBUG -   * Java Custom Rules 1.0-SNAPSHOT (javacustom)
+13:09:51.072 DEBUG -   * JaCoCo 1.0.1.143 (jacoco)
+13:09:51.072 DEBUG -   * SonarGo 1.1.0.1612 (go)
+13:09:51.072 DEBUG -   * SonarKotlin 1.5.0.315 (kotlin)
+13:09:51.072 DEBUG -   * Svn 1.9.0.1295 (scmsvn)
+13:09:51.072 DEBUG -   * SonarJS 5.1.1.7506 (javascript)
+13:09:51.072 DEBUG -   * SonarRuby 1.5.0.315 (ruby)
+13:09:51.072 DEBUG -   * SonarScala 1.5.0.315 (sonarscala)
+13:09:51.072 DEBUG -   * SonarC# 7.11.0.8083 (csharp)
+13:09:51.072 DEBUG -   * SonarJava 5.11.0.17289 (java)
+13:09:51.072 DEBUG -   * LDAP 2.2.0.608 (ldap)
+13:09:51.072 DEBUG -   * SonarHTML 3.1.0.1615 (web)
+13:09:51.072 DEBUG -   * Git 1.8.0.1574 (scmgit)
+13:09:51.073 DEBUG -   * SonarFlex 2.4.0.1222 (flex)
+13:09:51.073 DEBUG -   * SonarXML 2.0.1.2020 (xml)
+13:09:51.073 DEBUG -   * SonarPHP 3.0.0.4537 (php)
+13:09:51.073 DEBUG -   * SonarTS 1.9.0.3766 (typescript)
+13:09:51.073 DEBUG -   * SonarVB 7.11.0.8083 (vbnet)
+13:09:51.963 INFO  - Process project properties
+13:09:51.964 DEBUG - Process project properties (done) | time=1ms
+13:09:51.965 INFO  - Execute project builders
+13:09:51.965 DEBUG - Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+13:09:51.968 DEBUG - Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+13:09:51.971 INFO  - Execute project builders (done) | time=6ms
+13:09:51.980 INFO  - Project key: akshay.n
+13:09:51.981 INFO  - Base dir: D:\NEW_UI\main\campaign-management\campaignui\src\app\services
+13:09:51.981 INFO  - Working dir: D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.sonar
+13:09:51.981 DEBUG - Project global encoding: windows-1252, default locale: en_US
+13:09:51.996 DEBUG - Creating module hierarchy
+13:09:51.996 DEBUG -   Init module 'akshay.n'
+13:09:51.998 DEBUG -     Base dir: D:\NEW_UI\main\campaign-management\campaignui\src\app\services
+13:09:51.999 DEBUG -     Working dir: D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.sonar
+13:09:51.999 DEBUG -     Module global encoding: windows-1252, default locale: en_US
+13:09:52.026 INFO  - Load project settings for component key: 'akshay.n'
+13:09:52.102 DEBUG - GET 200 http://127.0.0.1:9000/api/settings/values.protobuf?component=akshay.n | time=76ms
+13:09:52.104 INFO  - Load project settings for component key: 'akshay.n' (done) | time=78ms
+13:09:52.159 DEBUG - Available languages:
+13:09:52.160 DEBUG -   * Python => "py"
+13:09:52.160 DEBUG -   * CSS => "css"
+13:09:52.160 DEBUG -   * Go => "go"
+13:09:52.160 DEBUG -   * Kotlin => "kotlin"
+13:09:52.160 DEBUG -   * JavaScript => "js"
+13:09:52.160 DEBUG -   * Ruby => "ruby"
+13:09:52.160 DEBUG -   * Scala => "scala"
+13:09:52.160 DEBUG -   * C# => "cs"
+13:09:52.160 DEBUG -   * Java => "java"
+13:09:52.160 DEBUG -   * HTML => "web"
+13:09:52.160 DEBUG -   * JSP => "jsp"
+13:09:52.160 DEBUG -   * Flex => "flex"
+13:09:52.160 DEBUG -   * XML => "xml"
+13:09:52.160 DEBUG -   * PHP => "php"
+13:09:52.160 DEBUG -   * TypeScript => "ts"
+13:09:52.160 DEBUG -   * VB.NET => "vbnet"
+13:09:52.171 INFO  - Load project repositories
+13:09:53.928 DEBUG - GET 200 http://127.0.0.1:9000/batch/project.protobuf?key=akshay.n | time=1757ms
+13:09:54.029 INFO  - Load project repositories (done) | time=1858ms
+13:09:54.030 INFO  - Load quality profiles
+13:09:54.701 DEBUG - GET 200 http://127.0.0.1:9000/api/qualityprofiles/search.protobuf?projectKey=akshay.n | time=670ms
+13:09:54.725 INFO  - Load quality profiles (done) | time=695ms
+13:09:54.786 INFO  - Load active rules
+13:09:55.454 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIaS5xlWdgF8Qx7Lp&p=1&ps=500 | time=666ms
+13:09:55.649 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIaWIxlWdgF8Qx7Mf&p=1&ps=500 | time=118ms
+13:09:55.681 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIaY9xlWdgF8Qx7M-&p=1&ps=500 | time=25ms
+13:09:55.790 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIaa4xlWdgF8Qx7Od&p=1&ps=500 | time=109ms
+13:09:55.906 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIaZOxlWdgF8Qx7Nf&p=1&ps=500 | time=111ms
+13:09:56.065 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIafXxlWdgF8Qx7VF&p=1&ps=500 | time=153ms
+13:09:56.193 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIaihxlWdgF8Qx7XY&p=1&ps=500 | time=108ms
+13:09:56.309 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIamtxlWdgF8Qx7Yi&p=1&ps=500 | time=109ms
+13:09:56.599 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIarmxlWdgF8Qx7cw&p=1&ps=500 | time=287ms
+13:09:56.800 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnduXEubsqq5LgGXiyi&p=1&ps=500 | time=153ms
+13:09:56.965 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIa3cxlWdgF8Qx7sq&p=1&ps=500 | time=162ms
+13:09:57.186 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIa9YxlWdgF8Qx7t2&p=1&ps=500 | time=219ms
+13:09:57.333 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIa6ixlWdgF8Qx7tC&p=1&ps=500 | time=140ms
+13:09:57.577 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIbHGxlWdgF8Qx7xr&p=1&ps=500 | time=243ms
+13:09:57.746 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIbKnxlWdgF8Qx70_&p=1&ps=500 | time=161ms
+13:09:57.868 DEBUG - GET 200 http://127.0.0.1:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AWnDIbMlxlWdgF8Qx73g&p=1&ps=500 | time=115ms
+13:09:57.892 INFO  - Load active rules (done) | time=3106ms
+13:09:57.898 DEBUG - SCM Step is disabled by configuration
+13:09:58.054 DEBUG - Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+13:09:58.054 DEBUG - Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+13:09:58.054 DEBUG - Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+13:09:58.054 DEBUG - Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+13:09:58.055 DEBUG - Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+13:09:58.055 DEBUG - Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+13:09:58.055 DEBUG - Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+13:09:58.055 DEBUG - Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+13:09:58.055 DEBUG - Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+13:09:58.056 DEBUG - Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+13:09:58.056 DEBUG - Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+13:09:58.056 DEBUG - Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+13:09:58.057 DEBUG - Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+13:09:58.057 DEBUG - Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+13:09:58.057 DEBUG - Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+13:09:58.058 DEBUG - Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+13:09:58.062 INFO  - Indexing files...
+13:09:58.063 INFO  - Project configuration:
+13:09:58.064 INFO  -   Included sources: \asset-service.service.ts, \camp-services.enum.ts
+13:09:58.095 DEBUG - 'asset-service.service.ts' indexed with language 'ts'
+13:09:58.101 DEBUG - 'camp-services.enum.ts' indexed with language 'ts'
+13:09:58.112 INFO  - 2 files indexed
+13:09:58.113 INFO  - 0 files ignored because of inclusion/exclusion patterns
+13:09:58.116 INFO  - Quality profile for ts: Sonar way
+13:09:58.116 INFO  - ------------- Run sensors on module akshay.n
+13:09:58.447 INFO  - Load metrics repository
+13:09:58.485 DEBUG - GET 200 http://127.0.0.1:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=38ms
+13:09:58.509 INFO  - Load metrics repository (done) | time=62ms
+13:10:01.052 DEBUG - 'JavaSquidSensor' skipped because there is no related file in current project
+13:10:01.053 DEBUG - 'Import external issues report' skipped because one of the required properties is missing
+13:10:01.054 DEBUG - 'Python Squid Sensor' skipped because there is no related file in current project
+13:10:01.054 DEBUG - 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+13:10:01.056 DEBUG - 'PythonXUnitSensor' skipped because there is no related file in current project
+13:10:01.056 DEBUG - 'PylintSensor' skipped because there is no related file in current project
+13:10:01.056 DEBUG - 'PylintImportSensor' skipped because there is no related file in current project
+13:10:01.057 DEBUG - 'Import of Bandit issues' skipped because there is no related file in current project
+13:10:01.057 DEBUG - 'SonarCSS Metrics' skipped because there is no related file in current project
+13:10:01.057 DEBUG - 'SonarCSS Rules' skipped because there is no related file in current project
+13:10:01.058 DEBUG - 'Import of stylelint issues' skipped because there is no related file in current project
+13:10:01.060 DEBUG - 'SonarGo' skipped because there is no related file in current project
+13:10:01.060 DEBUG - 'Go Unit Test Report' skipped because there is no related file in current project
+13:10:01.061 DEBUG - 'Import of go vet issues' skipped because there is no related file in current project
+13:10:01.062 DEBUG - 'Import of Golint issues' skipped because there is no related file in current project
+13:10:01.062 DEBUG - 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+13:10:01.062 DEBUG - 'Kotlin Sensor' skipped because there is no related file in current project
+13:10:01.063 DEBUG - 'Import of detekt issues' skipped because there is no related file in current project
+13:10:01.064 DEBUG - 'Import of Android Lint issues' skipped because one of the required properties is missing
+13:10:01.064 DEBUG - 'SonarJS' skipped because there is no related file in current project
+13:10:01.065 DEBUG - 'ESLint-based SonarJS' skipped because there is no related file in current project
+13:10:01.066 DEBUG - 'SonarJS Coverage' skipped because there is no related file in current project
+13:10:01.067 DEBUG - 'Import of ESLint issues' skipped because one of the required properties is missing
+13:10:01.067 DEBUG - 'Ruby Sensor' skipped because there is no related file in current project
+13:10:01.068 DEBUG - 'Import of RuboCop issues' skipped because one of the required properties is missing
+13:10:01.068 DEBUG - 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+13:10:01.068 DEBUG - 'Scala Sensor' skipped because there is no related file in current project
+13:10:01.069 DEBUG - 'Scoverage sensor for Scala coverage' skipped because one of the required properties is missing
+13:10:01.070 DEBUG - 'Import of Scalastyle issues' skipped because there is no related file in current project
+13:10:01.070 DEBUG - 'Import of Scapegoat issues' skipped because there is no related file in current project
+13:10:01.070 DEBUG - 'C# Properties' skipped because there is no related file in current project
+13:10:01.072 DEBUG - 'Import of Checkstyle issues' skipped because there is no related file in current project
+13:10:01.073 DEBUG - 'Import of PMD issues' skipped because one of the required properties is missing
+13:10:01.074 DEBUG - 'Import of SpotBugs issues' skipped because there is no related file in current project
+13:10:01.075 DEBUG - 'SurefireSensor' skipped because there is no related file in current project
+13:10:01.075 DEBUG - 'JaCoCoSensor' skipped because there is no related file in current project
+13:10:01.076 DEBUG - 'JavaXmlSensor' skipped because one of the required properties is missing
+13:10:01.077 DEBUG - 'Flex' skipped because there is no related file in current project
+13:10:01.077 DEBUG - 'Flex Cobertura' skipped because there is no related file in current project
+13:10:01.078 DEBUG - 'XML Sensor' skipped because there is no related file in current project
+13:10:01.078 DEBUG - 'PHP sensor' skipped because there is no related file in current project
+13:10:01.078 DEBUG - 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+13:10:01.079 DEBUG - 'SonarTS Coverage' skipped because one of the required properties is missing
+13:10:01.080 DEBUG - 'Import of TSLint issues' skipped because one of the required properties is missing
+13:10:01.081 DEBUG - 'VB.NET Properties' skipped because there is no related file in current project
+13:10:01.090 DEBUG - 'Generic Coverage Report' skipped because one of the required properties is missing
+13:10:01.090 DEBUG - 'Generic Test Executions Report' skipped because one of the required properties is missing
+13:10:01.091 DEBUG - 'C#' skipped because there is no related file in current project
+13:10:01.091 DEBUG - 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+13:10:01.091 DEBUG - '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+13:10:01.091 DEBUG - 'C# Unit Test Results Import' skipped because there is no related file in current project
+13:10:01.091 DEBUG - 'VB.NET' skipped because there is no related file in current project
+13:10:01.092 DEBUG - 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+13:10:01.092 DEBUG - '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+13:10:01.092 DEBUG - 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+13:10:01.093 DEBUG - Sensors : JaCoCo XML Report Importer -> HTML -> SonarTS
+13:10:01.095 INFO  - Sensor JaCoCo XML Report Importer [jacoco]
+13:10:01.101 DEBUG - No reports found
+13:10:01.101 INFO  - Sensor JaCoCo XML Report Importer [jacoco] (done) | time=7ms
+13:10:01.103 INFO  - Sensor HTML [web]
+13:10:01.130 INFO  - Sensor HTML [web] (done) | time=27ms
+13:10:01.131 INFO  - Sensor SonarTS [typescript]
+13:10:01.138 DEBUG - No TypeScript compiler found in your project
+13:10:01.138 DEBUG - Global one referenced in 'NODE_PATH' will be used
+13:10:01.140 DEBUG - Deploying bundle to D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.sonar
+13:10:04.109 DEBUG - 'asset-service.service.ts' generated metadata with charset 'windows-1252'
+13:10:04.116 DEBUG - 'camp-services.enum.ts' generated metadata with charset 'windows-1252'
+13:10:04.118 DEBUG - Checking node version
+13:10:04.539 DEBUG - Using Node.js v10.16.3
+13:10:04.540 DEBUG - No tsconfig.json file found for [file:///D:/NEW_UI/main/campaign-management/campaignui/src/app/services/asset-service.service.ts] (looking up the directories tree until project base directory [D:\NEW_UI\main\campaign-management\campaignui\src\app\services]). Using default configuration.
+13:10:04.541 DEBUG - No tsconfig.json file found for [file:///D:/NEW_UI/main/campaign-management/campaignui/src/app/services/camp-services.enum.ts] (looking up the directories tree until project base directory [D:\NEW_UI\main\campaign-management\campaignui\src\app\services]). Using default configuration.
+13:10:04.542 INFO  - No tsconfig.json file found for 2 file(s) (Run in debug mode to see all of them). They will be analyzed with a default configuration.
+13:10:04.542 INFO  - Analyzing 2 typescript file(s) with the following configuration file DEFAULT_TSCONFIG
+13:10:04.572 DEBUG - Starting external process `node --max-old-space-size=2048 D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.sonar\sonarts-bundle\node_modules\tslint-sonarts\bin\tsrunner`
+13:10:13.126 INFO  - 2 files analyzed out of 2
+13:10:13.676 INFO  - Sensor SonarTS [typescript] (done) | time=12545ms
+13:10:13.691 INFO  - ------------- Run sensors on project
+13:10:13.700 DEBUG - 'Java CPD Block Indexer' skipped because there is no related file in current project
+13:10:13.702 DEBUG - Sensors : Zero Coverage Sensor
+13:10:13.702 INFO  - Sensor Zero Coverage Sensor
+13:10:13.796 INFO  - Sensor Zero Coverage Sensor (done) | time=94ms
+13:10:13.809 INFO  - SCM Publisher is disabled
+13:10:13.865 INFO  - Calculating CPD for 2 files
+13:10:13.865 DEBUG - Detection of duplications for D:/NEW_UI/main/campaign-management/campaignui/src/app/services/camp-services.enum.ts
+13:10:13.905 DEBUG - Detection of duplications for D:/NEW_UI/main/campaign-management/campaignui/src/app/services/asset-service.service.ts
+13:10:13.913 INFO  - CPD calculation finished
+13:10:14.123 INFO  - Analysis report generated in 191ms, dir size=112 KB
+13:10:14.213 INFO  - Analysis report compressed in 89ms, zip size=26 KB
+13:10:14.214 INFO  - Analysis report generated in D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.sonar\scanner-report
+13:10:14.215 DEBUG - Upload report
+13:10:14.377 DEBUG - POST 200 http://127.0.0.1:9000/api/ce/submit?projectKey=akshay.n | time=154ms
+13:10:14.382 INFO  - Analysis report uploaded in 167ms
+13:10:14.384 INFO  - ANALYSIS SUCCESSFUL, you can browse http://127.0.0.1:9000/dashboard?id=akshay.n
+13:10:14.384 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+13:10:14.384 INFO  - More about the report processing at http://127.0.0.1:9000/api/ce/task?id=AW179nxdgxiehFuYnuTf
+13:10:14.387 DEBUG - Report metadata written to D:\NEW_UI\main\campaign-management\campaignui\src\app\services\.sonar\report-task.txt
+13:10:14.391 DEBUG - Post-jobs : 
+13:10:14.399 INFO  - Analysis total time: 23.295 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 30.864s
+Final Memory: 21M/180M
+INFO: ------------------------------------------------------------------------
+
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"PENDING","submittedAt":"2019-09-29T13:10:14+0530","logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"PENDING","submittedAt":"2019-09-29T13:10:14+0530","logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"IN_PROGRESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executionTimeMs":942,"logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"IN_PROGRESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executionTimeMs":1963,"logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"IN_PROGRESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executionTimeMs":2983,"logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"IN_PROGRESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executionTimeMs":4005,"logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"IN_PROGRESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executionTimeMs":5030,"logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","status":"IN_PROGRESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executionTimeMs":6052,"logs":false,"organization":"default-organization","warnings":[]}],"current":{"id":"AW135n5EgxiehFuYnuTe","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW135oB_LiVuG8dviPl4","status":"SUCCESS","submittedAt":"2019-09-28T18:14:17+0530","startedAt":"2019-09-28T18:14:17+0530","executedAt":"2019-09-28T18:14:22+0530","executionTimeMs":4935,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+####### Submitted the files to server, report is generating...........{"queue":[],"current":{"id":"AW179nxdgxiehFuYnuTf","type":"REPORT","componentId":"AW10mIxXgxiehFuYnuTD","componentKey":"akshay.n","componentName":"akshay.n","componentQualifier":"TRK","analysisId":"AW179ocILiVuG8dviP41","status":"SUCCESS","submittedAt":"2019-09-29T13:10:14+0530","startedAt":"2019-09-29T13:10:16+0530","executedAt":"2019-09-29T13:10:22+0530","executionTimeMs":6775,"logs":false,"hasScannerContext":true,"organization":"default-organization","warningCount":0,"warnings":[]}}
+###### Analysis completed!!..Checking the quality gate report!!
+########## Quality gate failure{"projectStatus":{"status":"ERROR","conditions":[{"status":"OK","metricKey":"new_reliability_rating","comparator":"GT","periodIndex":1,"errorThreshold":"1","actualValue":"1"},{"status":"OK","metricKey":"new_security_rating","comparator":"GT","periodIndex":1,"errorThreshold":"1","actualValue":"1"},{"status":"OK","metricKey":"new_maintainability_rating","comparator":"GT","periodIndex":1,"errorThreshold":"1","actualValue":"1"},{"status":"ERROR","metricKey":"new_coverage","comparator":"LT","periodIndex":1,"errorThreshold":"80","actualValue":"0.0"},{"status":"OK","metricKey":"new_duplicated_lines_density","comparator":"GT","periodIndex":1,"errorThreshold":"3","actualValue":"0.0"}],"periods":[{"index":1,"mode":"previous_version","date":"2019-09-28T02:49:40+0530"}],"ignoredConditions":false}}
